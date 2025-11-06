@@ -26,7 +26,7 @@ MÉTODOS CERRADOS (requieren intervalo [a, b]):
       - Requiere cambio de signo en [a, b]
 
 MÉTODOS ABIERTOS (requieren valor(es) inicial(es)):
-   3. Fixed Point (Punto Fijo)
+      3. Fixed Point (Punto Fijo)
       - Requiere reformular f(x)=0 como x=g(x)
       - Convergencia depende de |g'(x)| < 1
       - Un solo valor inicial
@@ -47,6 +47,7 @@ MÉTODOS HÍBRIDOS:
       - Combina bisección, secante e interpolación cuadrática
       - Uno de los más robustos y eficientes
       - Requiere intervalo [a, b] con cambio de signo
+
 --------------------
 
 EJEMPLOS DE USO:
@@ -73,6 +74,7 @@ Ejemplo 4: Secante
    Función: exp(x) - 3*x
    Valores iniciales: x0 = 0, x1 = 1
    Resultado: x ≈ 0.6190612867
+
 ----------------
 
 FUNCIONES MATEMÁTICAS DISPONIBLES:
@@ -92,6 +94,7 @@ Por defecto:
 - Máximo de iteraciones: 1000
 
 Estos valores están definidos en cada método y pueden modificarse si es necesario.
+
 ------------------------------------
 
 CONSEJOS PARA CADA MÉTODO:
@@ -164,4 +167,9 @@ Cálculo de derivada numérica:
 - h = 1e-8 (tamaño del paso)
 --------------------
 
+INFORMACIÓN EXTRA:
+------------------
+Buena parte del código ha sido creado con ayuda de Claude.ai, y revisado manualmente por un estudiante para evitar problemas que puedan pasar desapercibidos.
+
+------------------
 ===========================================================================

@@ -4,7 +4,7 @@ import os
 # Agregar el directorio actual al path para importar módulos
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from metodos.biseccion import metodo_biseccion
+from metodos.bisection import metodo_bisection
 from metodos.regula_falsi import metodo_regula_falsi
 from metodos.utilidades import mostrar_resultados
 

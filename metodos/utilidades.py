@@ -16,9 +16,23 @@ def evaluar_funcion(funcion_str, x):
     try:
         return eval(funcion_str, {"x": x, "np": np, "sin": np.sin, "cos": np.cos, 
                                    "tan": np.tan, "exp": np.exp, "log": np.log, 
-                                   "sqrt": np.sqrt, "pi": np.pi, "e": np.e})
+                                   "sqrt": np.sqrt, "pi": np.pi, "e": np.e, "abs": abs})
     except Exception as e:
         raise ValueError(f"Error al evaluar la función: {e}")
+
+def derivada_numerica(funcion_str, x, h=1e-8):
+    """
+    Calcula la derivada numérica usando diferencias centradas
+    
+    Parámetros:
+    - funcion_str: función como string
+    - x: punto donde calcular la derivada
+    - h: tamaño del paso
+    
+    Retorna:
+    - Aproximación de f'(x)
+    """
+    return (evaluar_funcion(funcion_str, x + h) - evaluar_funcion(funcion_str, x - h)) / (2 * h)
 
 def verificar_cambio_signo(funcion_str, a, b):
     """

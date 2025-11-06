@@ -67,8 +67,3 @@ def mostrar_resultados(raiz, iteraciones, historial, funcion_str, error=None):
         if error:
             print(f"\n⚠ {error}")
         
-        # Mostrar historial de aproximaciones
-        print(f"\n{'Iteración':<12} {'Aproximación (x)':<20}")
-        print("-" * 35)
-        for i, aprox in enumerate(historial, 1):
-            print(f"{i:<12} {aprox:.10f}")

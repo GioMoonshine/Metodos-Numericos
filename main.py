@@ -12,7 +12,7 @@ from metodos.utilidades import mostrar_resultados
 METODOS_DISPONIBLES = {
     1: {
         'nombre': 'Bisección',
-        'funcion': metodo_biseccion,
+        'funcion': metodo_bisection,
         'requiere_intervalo': True
     },
     2: {

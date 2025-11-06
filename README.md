@@ -172,7 +172,7 @@ Cálculo de derivada numérica:
 
 INFORMACIÓN EXTRA:
 ------------------
-Buena parte del código ha sido creado con ayuda de Claude.ai, y revisado manualmente por un estudiante para evitar problemas que puedan pasar desapercibidos.
+Parte del código ha sido creado con ayuda de Claude.ai, y revisado manualmente por un estudiante para evitar problemas que puedan pasar desapercibidos.
 
 ------------------
 ===========================================================================

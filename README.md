@@ -2,6 +2,7 @@
 Tarea de Electivo de especialidad - Métodos Numéricos.
 
 ==============================================================
+
 CÓMO USAR:
 ----------
 1. Asegúrese de tener Python 3 y NumPy instalados

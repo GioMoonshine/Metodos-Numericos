@@ -26,7 +26,7 @@ MÉTODOS CERRADOS (requieren intervalo [a, b]):
       - Requiere cambio de signo en [a, b]
 
 MÉTODOS ABIERTOS (requieren valor(es) inicial(es)):
-      3. Fixed Point (Punto Fijo)
+   3. Fixed Point (Punto Fijo)
       - Requiere reformular f(x)=0 como x=g(x)
       - Convergencia depende de |g'(x)| < 1
       - Un solo valor inicial

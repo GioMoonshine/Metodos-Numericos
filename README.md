@@ -15,6 +15,7 @@ CÓMO USAR:
 MÉTODOS DISPONIBLES:
 --------------------
 MÉTODOS CERRADOS (requieren intervalo [a, b]):
+   
    1. Bisección
       - Divide el intervalo por la mitad
       - Muy robusto pero puede ser lento
@@ -26,6 +27,7 @@ MÉTODOS CERRADOS (requieren intervalo [a, b]):
       - Requiere cambio de signo en [a, b]
 
 MÉTODOS ABIERTOS (requieren valor(es) inicial(es)):
+   
    3. Fixed Point (Punto Fijo)
       - Requiere reformular f(x)=0 como x=g(x)
       - Convergencia depende de |g'(x)| < 1
@@ -43,6 +45,7 @@ MÉTODOS ABIERTOS (requieren valor(es) inicial(es)):
       - Buenos resultados en la mayoría de casos
 
 MÉTODOS HÍBRIDOS:
+   
    6. Brent
       - Combina bisección, secante e interpolación cuadrática
       - Uno de los más robustos y eficientes
